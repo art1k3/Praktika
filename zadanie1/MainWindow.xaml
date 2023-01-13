@@ -1,0 +1,29 @@
+﻿<Window x:Class="zadanie1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Center" Height="434" TextWrapping="Wrap" VerticalAlignment="Center" Width="800" Background="#FFE2D912"/>
+        <TextBox x:Name="A" HorizontalAlignment="Left" Height="37" Margin="61,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" Background="#FFFDFDFD"/>
+        <TextBox x:Name="B" HorizontalAlignment="Left" Height="37" Margin="168,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.012,0.541"/>
+        <Label x:Name="l" HorizontalAlignment="Left" Height="103" Margin="61,149,0,0" VerticalAlignment="Top" Width="307" Background="#FF0DF90D"/>
+        <Button Content="ВЫСЧИТАТЬ" HorizontalAlignment="Left" Height="50" Margin="61,270,0,0" VerticalAlignment="Top" Width="307" Click="Button_Click_1"/>
+        <ComboBox x:Name="fff" HorizontalAlignment="Left" Height="37" Margin="259,102,0,0" VerticalAlignment="Top" Width="109">
+            <TextBlock Text="Сумма"/>
+            <TextBlock Text="Вычитание"/>
+            <TextBlock Text="Деление"/>
+            <TextBlock Text="Умножение"/>
+            <TextBlock Text="Синус"/>
+            <TextBlock Text="Косинус"/>
+            <TextBlock Text="Тангенс"/>
+            <TextBlock Text="Котангенс"/>
+        </ComboBox>
+        <Label x:Name="dop" Content="" HorizontalAlignment="Left" Height="70" Margin="386,103,0,0" VerticalAlignment="Top" Width="355"/>
+        <Label x:Name="dop_Copy" Content="Первое поле должно быть заполнено обязательно" HorizontalAlignment="Left" Height="24" Margin="65,79,0,0" VerticalAlignment="Top" Width="321"/>
+
+    </Grid>
+</Window>
