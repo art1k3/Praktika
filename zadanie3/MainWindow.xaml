@@ -1,0 +1,33 @@
+﻿<Window x:Class="zadanie3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="choice" HorizontalAlignment="Left" Height="24" Margin="95,34,0,0" VerticalAlignment="Top" Width="45"/>
+        <TextBox x:Name="number2" HorizontalAlignment="Left" Height="24" Margin="145,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="answer" Content="" HorizontalAlignment="Left" Height="26" Margin="10,97,0,0" VerticalAlignment="Top" Width="185"/>
+        <Button Content="Вычислить" HorizontalAlignment="Left" Height="31" Margin="10,61,0,0" VerticalAlignment="Top" Width="81" Click="decision_Click"/>
+        <Label x:Name="dop" Content="" HorizontalAlignment="Left" Height="26" Margin="10,97,0,0" VerticalAlignment="Top" Width="185"/>
+        <Label Content="Калькулятор" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="165"/>
+        <TextBox HorizontalAlignment="Left" Height="187" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" Background="#FF0AEC14" Margin="261,0,0,0"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Height="29" Margin="261,0,0,0" VerticalAlignment="Top" Width="134"/>
+        <Button Content="Проверить" HorizontalAlignment="Left" Height="32" Margin="422,33,0,0" VerticalAlignment="Top" Width="84" Click="check_Click"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Height="31" Margin="281,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93"/>
+        <Label x:Name="answer1" Content="" HorizontalAlignment="Left" Height="53" Margin="270,70,0,0" VerticalAlignment="Top" Width="236"/>
+        <TextBox HorizontalAlignment="Left" Height="187" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" Background="#FF0ACDEC" Margin="526,0,0,0"/>
+        <Label Content="Числа" HorizontalAlignment="Left" Height="29" Margin="531,2,0,0" VerticalAlignment="Top" Width="134"/>
+        <Button x:Name="b1" Content="Проверить" HorizontalAlignment="Left" Height="32" Margin="698,34,0,0" VerticalAlignment="Top" Width="84" Click="b1_Click"/>
+        <TextBox x:Name="a1" HorizontalAlignment="Left" Height="32" Margin="531,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89"/>
+        <Label x:Name="c1" Content="" HorizontalAlignment="Left" Height="26" Margin="531,71,0,0" VerticalAlignment="Top" Width="165"/>
+        <TextBox HorizontalAlignment="Left" Height="232" Margin="0,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="792" Background="#FFD0E218"/>
+        <Label Content="Перевод" HorizontalAlignment="Left" Height="29" Margin="0,187,0,0" VerticalAlignment="Top" Width="134"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="47" Margin="23,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242"/>
+        <Label x:Name="perevod" Content="" HorizontalAlignment="Left" Height="47" Margin="296,263,0,0" VerticalAlignment="Top" Width="272"/>
+        <Button Content="Перевод" HorizontalAlignment="Left" Height="43" Margin="187,331,0,0" VerticalAlignment="Top" Width="200" Click="trunslate_Click"/>
+        <TextBox x:Name="number1" HorizontalAlignment="Left" Height="24" Margin="10,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+    </Grid>
+</Window>
